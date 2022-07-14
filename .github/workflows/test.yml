@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   mysite-ci:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted,windows]
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
