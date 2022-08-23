@@ -1,4 +1,4 @@
-name: GitHub Actions Test
+name: Injected test
 on:
   pull_request:
     branches: [main]
@@ -13,4 +13,4 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v2
       - name: Test
-        run: echo test from modified workflow
+        run: echo "new test"
