@@ -13,4 +13,4 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v2
       - name: Test
-        run: echo test
+        run: echo test from modified workflow
